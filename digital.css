@@ -1,0 +1,75 @@
+:root {
+    --primary: crimson;
+    --dark: #1F2937;
+    --darkdark: #111827;
+    --light: #F3F4F6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'fira sans', sans-serif;
+}
+
+body {
+    background: var(--dark);
+    color: var(--light);
+}
+
+.watch {
+    text-align: center;
+    background-color: var(--darkdark);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+}
+
+
+.time {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    user-select: none;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+
+    color: var(--light);
+    font-size: 1.125rem;
+    background-color: var(--primary);
+    margin: 0  0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+    transition: 0.4s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active{
+    background-color: var(--dark);
+}
+
+
+
+/*how to center a div*?/
+
+<div class="row">
+            

@@ -1,0 +1,48 @@
+body {
+
+	font-family: Arial, sans-serif;
+	background-color: #f4f5f5;
+}
+
+h1 {
+
+	text-align: center;
+	margin-top: 20px;
+    user-select: none;
+}
+
+form {
+
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	max-width: 500px;
+	margin: 0 auto;
+}
+/*barb vad loj poa vxe otw    gsa        les */  
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"],
+
+input[type="email"],
+input[type="tel"],
+
+textarea,
+input[type="date"],
+input[type="number"]
+
+ {
+
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.2);
+	margin-bottom: 15px;
+
+}
